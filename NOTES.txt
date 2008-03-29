@@ -1,0 +1,25 @@
+Just doing 
+   git commit
+
+does not seem to automagically commit all fiels that have changed.
+
+I had to do 
+
+ git comit README 
+
+once I altered the file; otherwise, git gave me some "nothing has changed" message
+
+
+Likewiese with 
+
+    git add
+
+
+It does not add all new files.
+
+
+I created NOTES.txt and ran git add, and it told me:
+
+   Nothing specified, nothing added.
+   Maybe you wanted to say 'git add .'?
+
